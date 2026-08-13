@@ -1,0 +1,1823 @@
+{
+  "rantings": [
+    {
+      "id": 1,
+      "code": "RNT-KP-001",
+      "name": "Kelurahan Karangmulya",
+      "address": "Jl. Karangmulya No. 45, Karangpawitan, Garut",
+      "leader_name": "Ust. H. Jajang Jalaludin",
+      "secretary_name": "Asep Saepuloh, S.Pd.I.",
+      "contact_no": "081234567001",
+      "latitude": -7.2185,
+      "longitude": 107.9354,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-05T03:07:18.762Z",
+      "rois_name": "K.H. Ahmad Zakaria",
+      "rois_photo_url": "/uploads/1783220825642_i7s3llt.png",
+      "leader_photo_url": "/uploads/1783220830628_4j018bi.png",
+      "secretary_photo_url": "/uploads/1783220837871_35tiptu.png",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "UMKM",
+        "Peternakan"
+      ],
+      "potensi_unggulan": "Sentra Hortikultura (Cabai & Tomat)"
+    },
+    {
+      "id": 2,
+      "code": "RNT-KP-002",
+      "name": "Kelurahan Lebakjaya",
+      "address": "Jl. Raya Lebakjaya No. 12, Karangpawitan, Garut",
+      "leader_name": "Kyai Ahmad Sanusi",
+      "secretary_name": "Dadang Hermawan",
+      "contact_no": "081234567002",
+      "latitude": -7.2212,
+      "longitude": 107.9405,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Kyai Maimun Zubair",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "UMKM",
+        "Perdagangan"
+      ],
+      "potensi_unggulan": "Budidaya Padi Organik"
+    },
+    {
+      "id": 3,
+      "code": "RNT-KP-003",
+      "name": "Desa Sindanggalih",
+      "address": "Jl. Veteran Sindanggalih, Karangpawitan, Garut",
+      "leader_name": "Ust. Cecep Supriadi",
+      "secretary_name": "Wawan Gunawan",
+      "contact_no": "081234567003",
+      "latitude": -7.2289,
+      "longitude": 107.9482,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "K.H. Bunyamin",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Peternakan",
+        "Pertanian",
+        "UMKM"
+      ],
+      "potensi_unggulan": "Peternakan Domba Garut Unggulan"
+    },
+    {
+      "id": 4,
+      "code": "RNT-KP-004",
+      "name": "Kelurahan Lengkongjaya",
+      "address": "Kp. Lengkong No. 8, Karangpawitan, Garut",
+      "leader_name": "Ust. Imron Rosyadi",
+      "secretary_name": "Dede Rukman",
+      "contact_no": "081234567004",
+      "latitude": -7.2132,
+      "longitude": 107.9298,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Ust. Habibuddin",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "UMKM",
+        "Perdagangan",
+        "Industri Rumah Tangga"
+      ],
+      "potensi_unggulan": "Sentra Kerajinan Kulit Karangpawitan"
+    },
+    {
+      "id": 5,
+      "code": "RNT-KP-005",
+      "name": "Desa Jatisari",
+      "address": "Jl. Jatisari Km 1, Karangpawitan, Garut",
+      "leader_name": "Kyai Maman Abdurrahman",
+      "secretary_name": "Encep Solihin",
+      "contact_no": "081234567005",
+      "latitude": -7.2054,
+      "longitude": 107.9254,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Kyai Hasan Basri",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "Perkebunan",
+        "UMKM"
+      ],
+      "potensi_unggulan": "Perkebunan Kopi Arabika"
+    },
+    {
+      "id": 6,
+      "code": "RNT-KP-006",
+      "name": "Desa Situgede",
+      "address": "Kp. Situ RT 02 RW 05, Desa Situgede, Garut",
+      "leader_name": "K.H. Mumuh Muhyidin",
+      "secretary_name": "Heri Herdiana",
+      "contact_no": "081234567006",
+      "latitude": -7.2341,
+      "longitude": 107.9511,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "K.H. Abdul Halim",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Perdagangan",
+        "UMKM",
+        "Jasa"
+      ],
+      "potensi_unggulan": "Sentra Kuliner Dodol & Ladu Tradisional"
+    },
+    {
+      "id": 7,
+      "code": "RNT-KP-007",
+      "name": "Desa Godog",
+      "address": "Jl. Makam Prabu Kian Santang, Kp. Godog, Garut",
+      "leader_name": "K.H. Aceng Qudsy",
+      "secretary_name": "Yudi Wahyudin",
+      "contact_no": "081234567007",
+      "latitude": -7.2482,
+      "longitude": 107.9599,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "K.H. Shohibul Wafa",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "Peternakan"
+      ],
+      "potensi_unggulan": "Sentra Pembibitan Sapi Potong"
+    },
+    {
+      "id": 8,
+      "code": "RNT-KP-008",
+      "name": "Desa Tanjungsari",
+      "address": "Jl. Desa Tanjungsari No. 2, Karangpawitan, Garut",
+      "leader_name": "Ust. Deden Ramdani",
+      "secretary_name": "Agus Rustandi",
+      "contact_no": "081234567008",
+      "latitude": -7.2111,
+      "longitude": 107.9125,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Ust. Saepul Millah",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Industri Rumah Tangga",
+        "UMKM",
+        "Perdagangan"
+      ],
+      "potensi_unggulan": "Kerajinan Anyaman Bambu"
+    },
+    {
+      "id": 9,
+      "code": "RNT-KP-009",
+      "name": "Desa Suci",
+      "address": "Jl. Raya Suci No. 110, Karangpawitan, Garut",
+      "leader_name": "Kyai Syarif Hidayatullah",
+      "secretary_name": "Rahmat Hidayat, S.Sy.",
+      "contact_no": "081234567009",
+      "latitude": -7.2078,
+      "longitude": 107.9012,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Kyai Anwar Musaddad",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "UMKM",
+        "Perdagangan",
+        "Pertanian"
+      ],
+      "potensi_unggulan": "Sentra Kerajinan Bata Merah"
+    },
+    {
+      "id": 10,
+      "code": "RNT-KP-010",
+      "name": "Desa Cimurah",
+      "address": "Kp. Cimurah RT 01 RW 03, Desa Cimurah, Garut",
+      "leader_name": "Ust. Usep Saefudin",
+      "secretary_name": "Diki Chandra",
+      "contact_no": "081234567010",
+      "latitude": -7.2023,
+      "longitude": 107.9152,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "K.H. Qamaruddin",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "Perikanan Darat"
+      ],
+      "potensi_unggulan": "Budidaya Ikan Nila & Mas Kolam Air Deras"
+    },
+    {
+      "id": 11,
+      "code": "RNT-KP-011",
+      "name": "Desa Mekarsari",
+      "address": "Jl. Mekarsari No. 19, Karangpawitan, Garut",
+      "leader_name": "Ust. Agus Salim",
+      "secretary_name": "Lukmanul Hakim",
+      "contact_no": "081234567011",
+      "latitude": -7.1954,
+      "longitude": 107.9201,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Kyai Muhyiddin",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "Peternakan",
+        "Perkebunan"
+      ],
+      "potensi_unggulan": "Budidaya Domba & Pakan Mandiri"
+    },
+    {
+      "id": 12,
+      "code": "RNT-KP-012",
+      "name": "Desa Suci Kaler",
+      "address": "Kp. Babakan Sukamanah, Karangpawitan, Garut",
+      "leader_name": "Kyai Solihin",
+      "secretary_name": "Yanyan Sofyan",
+      "contact_no": "081234567012",
+      "latitude": -7.1895,
+      "longitude": 107.9312,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-05T02:54:26.611Z",
+      "rois_name": "Ust. Ma'ruf Amin",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "UMKM",
+        "Jasa",
+        "Perdagangan"
+      ],
+      "potensi_unggulan": "Klaster UMKM Konveksi & Jahit Hijab"
+    },
+    {
+      "id": 14,
+      "code": "RNT-KP-014",
+      "name": "Desa Situjaya",
+      "address": "Kp. Situ RT 03 RW 01, Desa Situjaya, Garut",
+      "leader_name": "Ust. Endang Permana",
+      "secretary_name": "Iwan Setiawan",
+      "contact_no": "081234567014",
+      "latitude": -7.1812,
+      "longitude": 107.9515,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Ust. Zainal Abidin",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Perkebunan",
+        "Pertanian"
+      ],
+      "potensi_unggulan": "Budidaya Jagung & Olahan Pakan"
+    },
+    {
+      "id": 15,
+      "code": "RNT-KP-015",
+      "name": "Desa Karangpawitan",
+      "address": "Jl. Raya Karangpawitan No. 89, Garut",
+      "leader_name": "K.H. Yusuf Azhar",
+      "secretary_name": "Evi Rustandi, S.E.",
+      "contact_no": "081234567015",
+      "latitude": -7.2155,
+      "longitude": 107.9311,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "K.H. Muhammad Nuh",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Said_Aqil_Siradj.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "UMKM",
+        "Perdagangan",
+        "Industri Rumah Tangga"
+      ],
+      "potensi_unggulan": "Sentra Produksi Tempe & Tahu Higienis"
+    },
+    {
+      "id": 16,
+      "code": "RNT-KP-016",
+      "name": "Desa Sindangpalay",
+      "address": "Kp. Palay RT 02 RW 04, Desa Sindangpalay, Garut",
+      "leader_name": "Ust. Jeje Mujahid",
+      "secretary_name": "Agus Mulyadi",
+      "contact_no": "081234567016",
+      "latitude": -7.2398,
+      "longitude": 107.9431,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Kyai Iskandar",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "Pertanian",
+        "Peternakan",
+        "Perikanan"
+      ],
+      "potensi_unggulan": "Integrasi Mina-Padi Terpadu"
+    },
+    {
+      "id": 19,
+      "code": "RNT-KP-019",
+      "name": "Desa Tanjungsari Barat",
+      "address": "Jl. Tanjungsari No. 9, Karangpawitan, Garut",
+      "leader_name": "Kyai Dudung Abdul Hamid",
+      "secretary_name": "Ahmad Sodikin",
+      "contact_no": "081234567019",
+      "latitude": -7.2098,
+      "longitude": 107.9054,
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z",
+      "rois_name": "Kyai Ruhiat",
+      "rois_photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/KH_Yahya_Cholil_Staquf.jpg",
+      "leader_photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gus_Baha.png",
+      "secretary_photo_url": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=150&h=150&fit=crop&crop=face",
+      "potensi_ekonomi": [
+        "UMKM",
+        "Jasa",
+        "Perdagangan"
+      ],
+      "potensi_unggulan": "Sentra Bakso Aci (Baci) & Kuliner Pedas"
+    }
+  ],
+  "banoms": [
+    {
+      "id": 1,
+      "name": "GP Ansor (Gerakan Pemuda Ansor)",
+      "type": "Banom",
+      "leader_name": "Sahabat Hilman Farid, M.Pd.",
+      "contact_no": "085222333001",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 2,
+      "name": "Muslimat NU",
+      "type": "Banom",
+      "leader_name": "Hj. Elis Halimah, S.Ag.",
+      "contact_no": "085222333002",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 3,
+      "name": "Fatayat NU",
+      "type": "Banom",
+      "leader_name": "Neng Kokom Komalasari",
+      "contact_no": "085222333003",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 4,
+      "name": "IPNU (Ikatan Pelajar Nahdlatul Ulama)",
+      "type": "Banom",
+      "leader_name": "Rekan Fahmi Nurul Alam",
+      "contact_no": "085222333004",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 5,
+      "name": "IPPNU (Ikatan Pelajar Putri Nahdlatul Ulama)",
+      "type": "Banom",
+      "leader_name": "Rekanita Siti Maryam",
+      "contact_no": "085222333005",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 6,
+      "name": "Pagar Nusa (Pencak Silat NU)",
+      "type": "Banom",
+      "leader_name": "Kang Dudung Bahrul Ulum",
+      "contact_no": "085222333006",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 7,
+      "name": "LAZISNU (Lembaga Amil Zakat, Infak, dan Sedekah NU)",
+      "type": "Lembaga",
+      "leader_name": "H. Ade Juhendi, S.E.",
+      "contact_no": "085222333007",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 8,
+      "name": "LP Ma'arif NU (Lembaga Pendidikan Ma'arif NU)",
+      "type": "Lembaga",
+      "leader_name": "Drs. H. Maman Suratman, M.Si.",
+      "contact_no": "085222333008",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 9,
+      "name": "LDNU (Lembaga Dakwah NU)",
+      "type": "Lembaga",
+      "leader_name": "Kyai Cecep Qoribullah",
+      "contact_no": "085222333009",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    },
+    {
+      "id": 10,
+      "name": "LKNU (Lembaga Kesehatan NU)",
+      "type": "Lembaga",
+      "leader_name": "dr. H. Rahmat Wijaya",
+      "contact_no": "085222333010",
+      "created_at": "2026-07-04T02:55:02.251Z",
+      "updated_at": "2026-07-04T02:55:02.251Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 100,
+      "uid": "admin_uid",
+      "email": "admin",
+      "name": "Administrator MWC NU",
+      "role": "Super Admin",
+      "ranting_id": null,
+      "banom_id": null,
+      "password": "mwcnukarpaw",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 1,
+      "uid": "superadmin_uid",
+      "email": "ulas.tkj@gmail.com",
+      "name": "Fahmi Taufiq Zain, ST (Super Admin)",
+      "role": "Super Admin",
+      "ranting_id": null,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 2,
+      "uid": "ketua_uid",
+      "email": "ketua@simmwc.or.id",
+      "name": "KH. Agus Khoerus soimin (Ketua MWC)",
+      "role": "Ketua MWC",
+      "ranting_id": null,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 3,
+      "uid": "sekretaris_uid",
+      "email": "sekretaris@simmwc.or.id",
+      "name": "Cep Dindin, S.Pd (Sekretaris MWC)",
+      "role": "Sekretaris",
+      "ranting_id": null,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 4,
+      "uid": "bendahara_uid",
+      "email": "bendahara@simmwc.or.id",
+      "name": "H. Asep (Bendahara MWC)",
+      "role": "Bendahara",
+      "ranting_id": null,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 5,
+      "uid": "operator_uid",
+      "email": "operator@simmwc.or.id",
+      "name": "Iqbal (Operator MWC)",
+      "role": "Operator",
+      "ranting_id": null,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 6,
+      "uid": "operator_ranting1_uid",
+      "email": "karangmulya@simmwc.or.id",
+      "name": "Dani Ramdani (Admin Ranting Karangmulya)",
+      "role": "Admin Ranting",
+      "ranting_id": 1,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 7,
+      "uid": "operator_ranting2_uid",
+      "email": "lebakjaya@simmwc.or.id",
+      "name": "Agus Mulyadi (Admin Ranting Lebakjaya)",
+      "role": "Admin Ranting",
+      "ranting_id": 2,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 8,
+      "uid": "operator_banom1_uid",
+      "email": "ansor@simmwc.or.id",
+      "name": "Ridwan Pamungkas (Admin GP Ansor)",
+      "role": "Admin Banom",
+      "ranting_id": null,
+      "banom_id": 1,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 9,
+      "uid": "viewer_uid",
+      "email": "viewer@simmwc.or.id",
+      "name": "Jama'ah",
+      "role": "Viewer",
+      "ranting_id": null,
+      "banom_id": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    }
+  ],
+  "anggota": [
+    {
+      "id": 1,
+      "nik": "3205121204850001",
+      "no_kk": "3205122108120032",
+      "name": "H. Aceng Muhammad",
+      "gender": "L",
+      "place_of_birth": "Garut",
+      "date_of_birth": "1985-04-12",
+      "marital_status": "Kawin",
+      "is_alive": true,
+      "address": "Kp. Godog RT 01 RW 03",
+      "rt": "01",
+      "rw": "03",
+      "phone": "081322445501",
+      "email": "aceng.m@gmail.com",
+      "photo_url": null,
+      "ranting_id": 7,
+      "banom_id": null,
+      "jamiyah": "Majelis Taklim Al-Falah",
+      "status_active": true,
+      "year_joined": 2010,
+      "kta_number": "KTA-320512-070001",
+      "status_sensus": "Disetujui",
+      "notes": "Verifikasi KTA berhasil",
+      "created_by_uid": "operator_ranting1_uid",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 2,
+      "nik": "3205121510920002",
+      "no_kk": "3205120509150044",
+      "name": "Siti Fatimah, S.Pd.",
+      "gender": "P",
+      "place_of_birth": "Garut",
+      "date_of_birth": "1992-10-15",
+      "marital_status": "Kawin",
+      "is_alive": true,
+      "address": "Jl. Raya Karangmulya No. 12",
+      "rt": "02",
+      "rw": "01",
+      "phone": "085244556602",
+      "email": "siti.fatimah@gmail.com",
+      "photo_url": null,
+      "ranting_id": 1,
+      "banom_id": 2,
+      "jamiyah": "Jamiyyah Yasin Muslimat Karangmulya",
+      "status_active": true,
+      "year_joined": 2015,
+      "kta_number": "KTA-320512-010002",
+      "status_sensus": "Disetujui",
+      "notes": "Data berkas lengkap",
+      "created_by_uid": "operator_ranting1_uid",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 3,
+      "nik": "3205121008980003",
+      "no_kk": "3205122506190012",
+      "name": "Yudi Lesmana",
+      "gender": "L",
+      "place_of_birth": "Garut",
+      "date_of_birth": "1998-08-10",
+      "marital_status": "Belum Kawin",
+      "is_alive": true,
+      "address": "Kp. Situgede RT 03 RW 04",
+      "rt": "03",
+      "rw": "04",
+      "phone": "089877665503",
+      "email": "yudi.lesmana@gmail.com",
+      "photo_url": null,
+      "ranting_id": 6,
+      "banom_id": 1,
+      "jamiyah": "Majelis Rijalul Ansor Situgede",
+      "status_active": true,
+      "year_joined": 2018,
+      "kta_number": "KTA-320512-060003",
+      "status_sensus": "Disetujui",
+      "notes": "Divalidasi otomatis",
+      "created_by_uid": "operator_ranting2_uid",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 4,
+      "nik": "3205120101900004",
+      "no_kk": "3205120202150021",
+      "name": "H. Cecep Gunawan",
+      "gender": "L",
+      "place_of_birth": "Garut",
+      "date_of_birth": "1990-01-01",
+      "marital_status": "Kawin",
+      "is_alive": true,
+      "address": "Kp. Lebakjaya Indah No. 3",
+      "rt": "01",
+      "rw": "02",
+      "phone": "081299887704",
+      "email": "cecep.g@gmail.com",
+      "photo_url": null,
+      "ranting_id": 2,
+      "banom_id": null,
+      "jamiyah": "Majelis Taklim Ar-Raudhoh",
+      "status_active": true,
+      "year_joined": 2012,
+      "kta_number": null,
+      "status_sensus": "Menunggu Verifikasi",
+      "notes": "Menunggu verifikasi operator MWC",
+      "created_by_uid": "operator_ranting2_uid",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 5,
+      "nik": "3205121406950005",
+      "no_kk": "3205121203200056",
+      "name": "M. Wildan",
+      "gender": "L",
+      "place_of_birth": "Garut",
+      "date_of_birth": "1995-06-14",
+      "marital_status": "Belum Kawin",
+      "is_alive": true,
+      "address": "Kp. Lengkong Tengah No. 25",
+      "rt": "03",
+      "rw": "01",
+      "phone": "081122334405",
+      "email": "wildan@gmail.com",
+      "photo_url": null,
+      "ranting_id": 4,
+      "banom_id": 1,
+      "jamiyah": "Rijalul Ansor Lengkongjaya",
+      "status_active": true,
+      "year_joined": 2017,
+      "kta_number": null,
+      "status_sensus": "Draft",
+      "notes": "Dalam proses pengisian berkas",
+      "created_by_uid": "operator_ranting1_uid",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 6,
+      "nik": "3205062807870001",
+      "no_kk": "3205062807870001",
+      "name": "FAHMI TAUFIQ ZAIN",
+      "gender": "L",
+      "place_of_birth": "GARUT",
+      "date_of_birth": "1986-01-01",
+      "marital_status": "Belum Kawin",
+      "is_alive": true,
+      "address": "PERUM RABBANY REGENCY CIPARAY  BLOK A1 NO.25",
+      "rt": "04",
+      "rw": "16",
+      "phone": "085223766565",
+      "email": "ulas.tkj@gmail.com",
+      "photo_url": null,
+      "ranting_id": 7,
+      "banom_id": null,
+      "jamiyah": "Warga Biasa",
+      "status_active": true,
+      "year_joined": 2026,
+      "kta_number": "KTA-320512-070006",
+      "status_sensus": "Disetujui",
+      "notes": "Input mandiri operator",
+      "created_by_uid": "superadmin_uid",
+      "created_at": "2026-07-04T03:23:42.764Z",
+      "updated_at": "2026-07-05T03:25:38.325Z",
+      "mwc_posisi": "Banom",
+      "mwc_posisi_nama": "GP Ansor",
+      "mwc_jabatan": "Ketua"
+    }
+  ],
+  "anggota_pendidikan": [
+    {
+      "id": 1,
+      "anggota_id": 1,
+      "last_education": "S1",
+      "school_name": "IAIN Sunan Gunung Djati",
+      "major": "Hukum Islam",
+      "pesantren_name": "Pondok Pesantren Cipasung",
+      "pesantren_duration_years": 6,
+      "skills": "Kajian Kitab Kuning, Dakwah",
+      "certifications": "Sertifikasi Penyuluh Agama Kemenag",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 2,
+      "anggota_id": 2,
+      "last_education": "S1",
+      "school_name": "STKIP Garut",
+      "major": "Pendidikan Bahasa Inggris",
+      "pesantren_name": "Pondok Pesantren Al-Falah Biru",
+      "pesantren_duration_years": 3,
+      "skills": "Bahasa Inggris, Manajemen Organisasi",
+      "certifications": "Sertifikasi Pendidik Kemendikbud",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 3,
+      "anggota_id": 3,
+      "last_education": "D3",
+      "school_name": "Politeknik Garut",
+      "major": "Teknik Informatika",
+      "pesantren_name": null,
+      "pesantren_duration_years": null,
+      "skills": "Programming, Jaringan, Web Design",
+      "certifications": "CCNA Router & Switching",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 4,
+      "anggota_id": 4,
+      "last_education": "SMA",
+      "school_name": "MA Maarif Karangpawitan",
+      "major": "IPS",
+      "pesantren_name": "Pondok Pesantren Al-Ghazali",
+      "pesantren_duration_years": 3,
+      "skills": "Pertanian Terpadu, Peternakan Domba",
+      "certifications": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 5,
+      "anggota_id": 5,
+      "last_education": "SMA",
+      "school_name": "SMK Negeri 1 Garut",
+      "major": "Multimedia",
+      "pesantren_name": null,
+      "pesantren_duration_years": null,
+      "skills": "Editing Video, Fotografi, Videografi",
+      "certifications": null,
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 6,
+      "anggota_id": 6,
+      "last_education": "S1",
+      "school_name": "STTG",
+      "major": null,
+      "pesantren_name": "NURUL IHSAN",
+      "pesantren_duration_years": 3,
+      "skills": "IT",
+      "certifications": null,
+      "created_at": "2026-07-04T03:23:42.764Z",
+      "updated_at": "2026-07-05T03:25:38.325Z"
+    }
+  ],
+  "anggota_pekerjaan": [
+    {
+      "id": 1,
+      "anggota_id": 1,
+      "profession": "Guru / Pendidik",
+      "company_name": "MAN 1 Garut",
+      "position": "Guru Fiqih",
+      "has_umkm": true,
+      "umkm_name": "Kios Kitab Al-Falah",
+      "umkm_sector": "Perdagangan Buku/Kitab",
+      "monthly_income": "Rp 3.000.000 - Rp 5.000.000",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 2,
+      "anggota_id": 2,
+      "profession": "Guru / Pendidik",
+      "company_name": "MTs Maarif Karangpawitan",
+      "position": "Guru Bahasa Inggris",
+      "has_umkm": false,
+      "umkm_name": null,
+      "umkm_sector": null,
+      "monthly_income": "Rp 1.500.000 - Rp 3.000.000",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 3,
+      "anggota_id": 3,
+      "profession": "Programmer / IT Specialist",
+      "company_name": "CV Garut Media Solusi",
+      "position": "Web Developer",
+      "has_umkm": false,
+      "umkm_name": null,
+      "umkm_sector": null,
+      "monthly_income": "Rp 3.000.000 - Rp 5.000.000",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 4,
+      "anggota_id": 4,
+      "profession": "Petani / Pekebun",
+      "company_name": "Mandiri",
+      "position": "Pemilik Lahan",
+      "has_umkm": true,
+      "umkm_name": "Kelompok Tani Subur Makmur",
+      "umkm_sector": "Pertanian & Peternakan",
+      "monthly_income": "Rp 5.000.000 - Rp 10.000.000",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 5,
+      "anggota_id": 5,
+      "profession": "Fotografer / Videografer",
+      "company_name": "Wildan Studio Creative",
+      "position": "Owner",
+      "has_umkm": true,
+      "umkm_name": "Wildan Studio",
+      "umkm_sector": "Kreatif Jasa",
+      "monthly_income": "Rp 1.500.000 - Rp 3.000.000",
+      "created_at": "2026-07-04T02:55:02.252Z",
+      "updated_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 6,
+      "anggota_id": 6,
+      "profession": "ASN",
+      "company_name": null,
+      "position": null,
+      "has_umkm": true,
+      "umkm_name": "TAG LEATHER",
+      "umkm_sector": "KERAJINAN",
+      "monthly_income": "Rp 3.000.000 - Rp 5.000.000",
+      "created_at": "2026-07-04T03:23:42.764Z",
+      "updated_at": "2026-07-05T03:25:38.325Z"
+    }
+  ],
+  "potensi": [
+    {
+      "id": 1,
+      "name": "Kyai / Syuriah",
+      "category": "Keagamaan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 2,
+      "name": "Ustadz / Da'i",
+      "category": "Keagamaan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 3,
+      "name": "Hafidz (Penghafal Al-Qur'an)",
+      "category": "Keagamaan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 4,
+      "name": "Qori (Seni Tilawah)",
+      "category": "Keagamaan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 5,
+      "name": "Takmir Masjid",
+      "category": "Keagamaan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 6,
+      "name": "Guru TPQ / Madrasah",
+      "category": "Keagamaan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 7,
+      "name": "Guru / Pendidik",
+      "category": "Akademis",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 8,
+      "name": "Dosen / Akademisi",
+      "category": "Akademis",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 9,
+      "name": "Dokter",
+      "category": "Kesehatan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 10,
+      "name": "Perawat / Bidan",
+      "category": "Kesehatan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 11,
+      "name": "Programmer / IT Specialist",
+      "category": "Teknologi",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 12,
+      "name": "Desainer Grafis",
+      "category": "Kreatif",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 13,
+      "name": "Fotografer / Videografer",
+      "category": "Kreatif",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 14,
+      "name": "MC / Protokol",
+      "category": "Seni & Komunikasi",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 15,
+      "name": "Pengusaha / Wiraswasta",
+      "category": "Ekonomi",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 16,
+      "name": "Petani / Pekebun",
+      "category": "Ekonomi",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 17,
+      "name": "Peternak",
+      "category": "Ekonomi",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    },
+    {
+      "id": 18,
+      "name": "Relawan / Banser",
+      "category": "Sosial & Keamanan",
+      "created_at": "2026-07-04T02:55:02.252Z"
+    }
+  ],
+  "anggota_potensi": [
+    {
+      "anggota_id": 1,
+      "potensi_id": 1
+    },
+    {
+      "anggota_id": 1,
+      "potensi_id": 2
+    },
+    {
+      "anggota_id": 1,
+      "potensi_id": 7
+    },
+    {
+      "anggota_id": 2,
+      "potensi_id": 2
+    },
+    {
+      "anggota_id": 2,
+      "potensi_id": 6
+    },
+    {
+      "anggota_id": 2,
+      "potensi_id": 7
+    },
+    {
+      "anggota_id": 3,
+      "potensi_id": 11
+    },
+    {
+      "anggota_id": 3,
+      "potensi_id": 12
+    },
+    {
+      "anggota_id": 3,
+      "potensi_id": 18
+    },
+    {
+      "anggota_id": 4,
+      "potensi_id": 15
+    },
+    {
+      "anggota_id": 4,
+      "potensi_id": 16
+    },
+    {
+      "anggota_id": 4,
+      "potensi_id": 17
+    },
+    {
+      "anggota_id": 5,
+      "potensi_id": 13
+    },
+    {
+      "anggota_id": 5,
+      "potensi_id": 18
+    },
+    {
+      "anggota_id": 6,
+      "potensi_id": 6
+    }
+  ],
+  "pengurus": [],
+  "surat": [],
+  "disposisi": [],
+  "agenda": [],
+  "agenda_attendance": [],
+  "inventaris": [],
+  "inventaris_loan": [],
+  "keuangan": [],
+  "news": [],
+  "gallery": [],
+  "guest_book": [],
+  "audit_logs": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-04T02:55:12.477Z"
+    },
+    {
+      "id": 2,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.78.46, 169.254.169.126",
+      "created_at": "2026-07-04T02:55:12.478Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Pendaftaran Sensus",
+      "description": "Mendaftarkan warga baru dalam basis sensus",
+      "ip_address": "2404:c0:2b10::3479:5006, 169.254.169.126",
+      "created_at": "2026-07-04T03:23:42.766Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Logout",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-04T03:34:00.357Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "114.122.78.46, 169.254.169.126",
+      "created_at": "2026-07-04T03:34:00.359Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:11:41.693Z"
+    },
+    {
+      "id": 7,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:11:41.695Z"
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "WA Blast",
+      "description": "Melakukan WA Blast \"undangan - Part 1\" kepada 1 penerima (1 berhasil, 0 gagal)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:34.806Z"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/wa-blasts/send",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:34.807Z"
+    },
+    {
+      "id": 10,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "WA Blast",
+      "description": "Melakukan WA Blast \"undangan - Part 2\" kepada 1 penerima (1 berhasil, 0 gagal)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:35.290Z"
+    },
+    {
+      "id": 11,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/wa-blasts/send",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:35.291Z"
+    },
+    {
+      "id": 12,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "WA Blast",
+      "description": "Melakukan WA Blast \"undangan - Part 3\" kepada 1 penerima (1 berhasil, 0 gagal)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:35.776Z"
+    },
+    {
+      "id": 13,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/wa-blasts/send",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:35.777Z"
+    },
+    {
+      "id": 14,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "WA Blast",
+      "description": "Melakukan WA Blast \"undangan - Part 4\" kepada 1 penerima (1 berhasil, 0 gagal)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:36.247Z"
+    },
+    {
+      "id": 15,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/wa-blasts/send",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:36.248Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "WA Blast",
+      "description": "Melakukan WA Blast \"undangan - Part 5\" kepada 1 penerima (1 berhasil, 0 gagal)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:36.744Z"
+    },
+    {
+      "id": 17,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/wa-blasts/send",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:36.746Z"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "WA Blast",
+      "description": "Melakukan WA Blast \"undangan - Part 6\" kepada 1 penerima (0 berhasil, 1 gagal)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:37.207Z"
+    },
+    {
+      "id": 19,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/wa-blasts/send",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:37.208Z"
+    },
+    {
+      "id": 20,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Logout",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:13:43.585Z"
+    },
+    {
+      "id": 21,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:13:43.586Z"
+    },
+    {
+      "id": 22,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:52:41.517Z"
+    },
+    {
+      "id": 23,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:52:41.519Z"
+    },
+    {
+      "id": 24,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Logout",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:52:59.376Z"
+    },
+    {
+      "id": 25,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:52:59.378Z"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:53:48.928Z"
+    },
+    {
+      "id": 27,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:53:48.929Z"
+    },
+    {
+      "id": 28,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "UPDATE_RANTING",
+      "description": "Mengubah informasi Ranting \"Desa Suci Kaler\" (Kode: RNT-KP-012)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T02:54:26.613Z"
+    },
+    {
+      "id": 29,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "PUT request to /api/rantings/12",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T02:54:26.614Z"
+    },
+    {
+      "id": 30,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Logout",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:01:39.985Z"
+    },
+    {
+      "id": 31,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "2404:c0:2c10::2d23:47c3, 169.254.169.126",
+      "created_at": "2026-07-05T03:01:39.987Z"
+    },
+    {
+      "id": 32,
+      "user_id": 8,
+      "user_email": "ansor@simmwc.or.id",
+      "action": "Sesi Login",
+      "description": "User Ridwan Pamungkas (Admin GP Ansor) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:05:55.603Z"
+    },
+    {
+      "id": 33,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:05:55.605Z"
+    },
+    {
+      "id": 34,
+      "user_id": 8,
+      "user_email": "ansor@simmwc.or.id",
+      "action": "Sesi Logout",
+      "description": "User Ridwan Pamungkas (Admin GP Ansor) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:06:27.703Z"
+    },
+    {
+      "id": 35,
+      "user_id": 8,
+      "user_email": "ansor@simmwc.or.id",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:06:27.705Z"
+    },
+    {
+      "id": 36,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:06:32.155Z"
+    },
+    {
+      "id": 37,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:06:32.156Z"
+    },
+    {
+      "id": 38,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/upload",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:07:05.644Z"
+    },
+    {
+      "id": 39,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/upload",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:07:10.630Z"
+    },
+    {
+      "id": 40,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/upload",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:07:17.872Z"
+    },
+    {
+      "id": 41,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "UPDATE_RANTING",
+      "description": "Mengubah informasi Ranting \"Kelurahan Karangmulya\" (Kode: RNT-KP-001)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:07:18.763Z"
+    },
+    {
+      "id": 42,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "PUT request to /api/rantings/1",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:07:18.765Z"
+    },
+    {
+      "id": 43,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Logout",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:09:09.869Z"
+    },
+    {
+      "id": 44,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:09:09.871Z"
+    },
+    {
+      "id": 45,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:09:52.412Z"
+    },
+    {
+      "id": 46,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:09:52.416Z"
+    },
+    {
+      "id": 47,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "DELETE_RANTING",
+      "description": "Menghapus unit Ranting \"Desa Sukabakti\" (ID: 13)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:10:19.971Z"
+    },
+    {
+      "id": 48,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "DELETE request to /api/rantings/13",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:10:19.975Z"
+    },
+    {
+      "id": 49,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "DELETE_RANTING",
+      "description": "Menghapus unit Ranting \"Desa Sukamurni\" (ID: 17)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:10:25.892Z"
+    },
+    {
+      "id": 50,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "DELETE request to /api/rantings/17",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:10:25.894Z"
+    },
+    {
+      "id": 51,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "DELETE_RANTING",
+      "description": "Menghapus unit Ranting \"Desa Mekarsari Jaya\" (ID: 20)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:10:36.377Z"
+    },
+    {
+      "id": 52,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "DELETE request to /api/rantings/20",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:10:36.379Z"
+    },
+    {
+      "id": 53,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "DELETE_RANTING",
+      "description": "Menghapus unit Ranting \"Desa Situgede Timur\" (ID: 18)",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:10:40.391Z"
+    },
+    {
+      "id": 54,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "DELETE request to /api/rantings/18",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:10:40.392Z"
+    },
+    {
+      "id": 55,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Logout",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil keluar dari aplikasi.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:15:51.741Z"
+    },
+    {
+      "id": 56,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Mutasi Data",
+      "description": "POST request to /api/auth/logout",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:15:51.744Z"
+    },
+    {
+      "id": 57,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Sesi Login",
+      "description": "User Fahmi Taufiq Zain, ST (Super Admin) berhasil masuk.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-07-05T03:23:58.235Z"
+    },
+    {
+      "id": 58,
+      "user_id": null,
+      "user_email": "Guest / System",
+      "action": "Sesi Login",
+      "description": "Berhasil melakukan login ke dalam sistem",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:23:58.237Z"
+    },
+    {
+      "id": 59,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Pembaruan Sensus",
+      "description": "Mengedit data profil sensus warga",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:25:22.139Z"
+    },
+    {
+      "id": 60,
+      "user_id": 1,
+      "user_email": "ulas.tkj@gmail.com",
+      "action": "Pembaruan Sensus",
+      "description": "Mengedit data profil sensus warga",
+      "ip_address": "114.122.106.116, 169.254.169.126",
+      "created_at": "2026-07-05T03:25:38.326Z"
+    }
+  ],
+  "wa_blasts": [
+    {
+      "id": 1,
+      "title": "undangan - Part 1",
+      "message_template": "Assalamu'alaikum Wr. Wb.\n\nYth. Sahabat {nama},\n\nKami menginformasikan kegiatan rutin MWC NU Karangpawitan dari Ranting {ranting}.\nSemoga sehat wal 'afiat selalu.\n\nWallahul muwaffiq ila aqwamith thariq,\nWassalamu'alaikum Wr. Wb.",
+      "recipient_type": "Anggota",
+      "total_recipients": 1,
+      "sent_count": 1,
+      "failed_count": 0,
+      "status": "Completed",
+      "logs": [
+        {
+          "phone": "6281322445501",
+          "name": "H. Aceng Muhammad",
+          "status": "Success",
+          "sent_at": "2026-07-05T02:13:34.802Z"
+        }
+      ],
+      "created_at": "2026-07-05T02:13:34.803Z"
+    },
+    {
+      "id": 2,
+      "title": "undangan - Part 2",
+      "message_template": "Assalamu'alaikum Wr. Wb.\n\nYth. Sahabat {nama},\n\nKami menginformasikan kegiatan rutin MWC NU Karangpawitan dari Ranting {ranting}.\nSemoga sehat wal 'afiat selalu.\n\nWallahul muwaffiq ila aqwamith thariq,\nWassalamu'alaikum Wr. Wb.",
+      "recipient_type": "Anggota",
+      "total_recipients": 1,
+      "sent_count": 1,
+      "failed_count": 0,
+      "status": "Completed",
+      "logs": [
+        {
+          "phone": "6285244556602",
+          "name": "Siti Fatimah, S.Pd.",
+          "status": "Success",
+          "sent_at": "2026-07-05T02:13:35.288Z"
+        }
+      ],
+      "created_at": "2026-07-05T02:13:35.289Z"
+    },
+    {
+      "id": 3,
+      "title": "undangan - Part 3",
+      "message_template": "Assalamu'alaikum Wr. Wb.\n\nYth. Sahabat {nama},\n\nKami menginformasikan kegiatan rutin MWC NU Karangpawitan dari Ranting {ranting}.\nSemoga sehat wal 'afiat selalu.\n\nWallahul muwaffiq ila aqwamith thariq,\nWassalamu'alaikum Wr. Wb.",
+      "recipient_type": "Anggota",
+      "total_recipients": 1,
+      "sent_count": 1,
+      "failed_count": 0,
+      "status": "Completed",
+      "logs": [
+        {
+          "phone": "6289877665503",
+          "name": "Yudi Lesmana",
+          "status": "Success",
+          "sent_at": "2026-07-05T02:13:35.775Z"
+        }
+      ],
+      "created_at": "2026-07-05T02:13:35.775Z"
+    },
+    {
+      "id": 4,
+      "title": "undangan - Part 4",
+      "message_template": "Assalamu'alaikum Wr. Wb.\n\nYth. Sahabat {nama},\n\nKami menginformasikan kegiatan rutin MWC NU Karangpawitan dari Ranting {ranting}.\nSemoga sehat wal 'afiat selalu.\n\nWallahul muwaffiq ila aqwamith thariq,\nWassalamu'alaikum Wr. Wb.",
+      "recipient_type": "Anggota",
+      "total_recipients": 1,
+      "sent_count": 1,
+      "failed_count": 0,
+      "status": "Completed",
+      "logs": [
+        {
+          "phone": "6281299887704",
+          "name": "H. Cecep Gunawan",
+          "status": "Success",
+          "sent_at": "2026-07-05T02:13:36.245Z"
+        }
+      ],
+      "created_at": "2026-07-05T02:13:36.246Z"
+    },
+    {
+      "id": 5,
+      "title": "undangan - Part 5",
+      "message_template": "Assalamu'alaikum Wr. Wb.\n\nYth. Sahabat {nama},\n\nKami menginformasikan kegiatan rutin MWC NU Karangpawitan dari Ranting {ranting}.\nSemoga sehat wal 'afiat selalu.\n\nWallahul muwaffiq ila aqwamith thariq,\nWassalamu'alaikum Wr. Wb.",
+      "recipient_type": "Anggota",
+      "total_recipients": 1,
+      "sent_count": 1,
+      "failed_count": 0,
+      "status": "Completed",
+      "logs": [
+        {
+          "phone": "6281122334405",
+          "name": "M. Wildan",
+          "status": "Success",
+          "sent_at": "2026-07-05T02:13:36.742Z"
+        }
+      ],
+      "created_at": "2026-07-05T02:13:36.743Z"
+    },
+    {
+      "id": 6,
+      "title": "undangan - Part 6",
+      "message_template": "Assalamu'alaikum Wr. Wb.\n\nYth. Sahabat {nama},\n\nKami menginformasikan kegiatan rutin MWC NU Karangpawitan dari Ranting {ranting}.\nSemoga sehat wal 'afiat selalu.\n\nWallahul muwaffiq ila aqwamith thariq,\nWassalamu'alaikum Wr. Wb.",
+      "recipient_type": "Anggota",
+      "total_recipients": 1,
+      "sent_count": 0,
+      "failed_count": 1,
+      "status": "Failed",
+      "logs": [
+        {
+          "phone": "6285223766565",
+          "name": "FAHMI TAUFIQ ZAIN",
+          "status": "Failed",
+          "error": "Gagal mengirim: timeout koneksi operator (Simulasi)",
+          "sent_at": "2026-07-05T02:13:37.205Z"
+        }
+      ],
+      "created_at": "2026-07-05T02:13:37.206Z"
+    }
+  ],
+  "migrations": [
+    "0001_create_rantings",
+    "0002_create_banoms",
+    "0003_create_users",
+    "0004_create_anggota_and_potensi",
+    "0005_add_rois_syuriah_to_rantings",
+    "0006_add_photos_and_potentials_to_ranting",
+    "0007_create_mwc_settings"
+  ],
+  "settings": {
+    "name": "MWC NU Karangpawitan",
+    "logo_url": "/uploads/nahdlatul_ulama_logo.svg",
+    "structure": {
+      "mustasyar": [
+        "KH. Abdu Abdul Qodir",
+        "H. Undang Ridwan, S.TP.MM.",
+        "KH. Utang Fathullohilmaemun",
+        "KH. Ahmad Sobur",
+        "KH. Osep Muhammad",
+        "KH. Hasan Mustopa",
+        "KH. Ahmad Kohar",
+        "KH. Asep Ridwan, M.Pd.",
+        "Nyimas HJ. Lilim Siti Fatimah",
+        "H. Yusa",
+        "KA. Mamat",
+        "Dr. H. Arvi Iskandar, MMRS.",
+        "H. Deden Muhammad",
+        "KA. Ahmad Saja, M.Pd.",
+        "H. A. Ade Ahmad Komarudin",
+        "Ac. Undang, S.Pd.I."
+      ],
+      "syuriah": {
+        "rais": "KA. Muhlis Ulumudin, S.Pd.I.",
+        "wakil_rais": [
+          "KA. Basor Umar Basri",
+          "KH. Aceng Hasan",
+          "AJ. Ahmad Muman"
+        ],
+        "katib": "Ust. Hilman Firmansyah, S.Pd.I.",
+        "wakil_katib": [
+          "KA. Asep Hilman",
+          "Ac. Pirda"
+        ],
+        "a_wan": [
+          "Ac. Unjang Ab Manan",
+          "Ac. Nanang, S.THi.",
+          "H. A. Dede",
+          "H. A. Fahmi Taftazani",
+          "Ac. Yusuf firdaus, M.Pd.",
+          "Ac. Ruhimin",
+          "Ust. Yayan Ruyani, S.Ag."
+        ]
+      },
+      "tanfidziyah": {
+        "ketua": "KH. Agus, S.Ag., M.Si.",
+        "wakil_ketua": [
+          "Ac. Agus Ramlan, S.Ag.",
+          "Ac. Nanang Ridwan, M.Pd.",
+          "Ac. Iim Abdul Karim"
+        ],
+        "sekretaris": "M. Didin Saeful Hayat",
+        "wakil_sekretaris": [
+          "Dadan Suryana",
+          "Saepul Aripin, M.Pd.",
+          "Ust. Enang Nuryani, S.Pd.I."
+        ],
+        "bendahara": "H. Asep Supriatna",
+        "wakil_bendahara": [
+          "Ac. Nurjaman, S.Pd.",
+          "Ac. Irham Hilmi Anshori, S.E."
+        ]
+      }
+    }
+  }
+}

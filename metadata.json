@@ -1,0 +1,6 @@
+{
+  "name": "SIM MWC NU Karangpawitan",
+  "description": "Sistem Informasi Manajemen Terpadu MWC NU Karangpawitan - Portal Publik dan Administrasi Organisasi",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

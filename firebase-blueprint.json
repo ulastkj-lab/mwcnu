@@ -1,0 +1,89 @@
+{
+  "entities": {
+    "Ranting": {
+      "title": "Ranting",
+      "description": "Pengurus Ranting tingkat desa/kelurahan",
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer" },
+        "code": { "type": "string" },
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "leader_name": { "type": "string" },
+        "contact_no": { "type": "string" }
+      },
+      "required": ["id", "code", "name"]
+    },
+    "Anggota": {
+      "title": "Anggota Sensus",
+      "description": "Data warga Nahdliyin hasil sensus",
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer" },
+        "nik": { "type": "string" },
+        "name": { "type": "string" },
+        "gender": { "type": "string" },
+        "ranting_id": { "type": "integer" },
+        "status_sensus": { "type": "string" }
+      },
+      "required": ["id", "nik", "name", "gender", "ranting_id", "status_sensus"]
+    },
+    "Keuangan": {
+      "title": "Keuangan MWC",
+      "description": "Pencatatan kas masuk dan keluar",
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer" },
+        "type": { "type": "string", "enum": ["Masuk", "Keluar"] },
+        "amount": { "type": "number" },
+        "transaction_date": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["id", "type", "amount", "transaction_date", "description"]
+    },
+    "Inventaris": {
+      "title": "Aset Inventaris",
+      "description": "Daftar aset inventaris MWC",
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer" },
+        "code": { "type": "string" },
+        "name": { "type": "string" },
+        "condition": { "type": "string" }
+      },
+      "required": ["id", "code", "name", "condition"]
+    },
+    "Settings": {
+      "title": "MwcSettings",
+      "description": "Pengaturan instansi MWC NU",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "logo_url": { "type": "string" }
+      },
+      "required": ["name"]
+    }
+  },
+  "firestore": {
+    "/rantings/{rantingId}": {
+      "schema": "Ranting",
+      "description": "Daftar pengurus ranting"
+    },
+    "/anggota/{anggotaId}": {
+      "schema": "Anggota",
+      "description": "Daftar warga hasil sensus"
+    },
+    "/keuangan/{keuanganId}": {
+      "schema": "Keuangan",
+      "description": "Daftar pencatatan keuangan"
+    },
+    "/inventaris/{inventarisId}": {
+      "schema": "Inventaris",
+      "description": "Daftar aset inventaris"
+    },
+    "/settings/config": {
+      "schema": "Settings",
+      "description": "Pengaturan umum portal"
+    }
+  }
+}
