@@ -14,27 +14,28 @@ export const AuthController = {
    * Uses user's UID as authorization token in our bearer format.
    */
   login: (req: Request, res: Response): void => {
-    const { email, password } = req.body;
+    const { email, username, password } = req.body;
+    const userInput = (username || email || '').trim().toLowerCase();
 
-    if (!email) {
+    if (!userInput) {
       res.status(400).json({
         success: false,
-        message: 'Username atau Email wajib diisi.'
+        message: 'Username wajib diisi.'
       });
       return;
     }
 
-    const inputLower = email.trim().toLowerCase();
     const dbState = db.getState();
     const user = dbState.users.find(u => 
-      u.email.toLowerCase() === inputLower ||
-      (inputLower === 'admin' && (u.email === 'admin' || u.role === 'Super Admin'))
+      (u.username && u.username.toLowerCase() === userInput) ||
+      (u.email && u.email.toLowerCase() === userInput) ||
+      (userInput === 'admin' && (u.email === 'admin' || u.username === 'admin' || u.role === 'Super Admin'))
     );
 
     if (!user) {
       res.status(401).json({
         success: false,
-        message: 'Kredensial tidak cocok. Username/email tidak ditemukan.'
+        message: 'Kredensial tidak cocok. Username tidak ditemukan.'
       });
       return;
     }
@@ -51,7 +52,7 @@ export const AuthController = {
     const token = user.uid;
 
     // Log the successful login event
-    db.logActivity(user.id, user.email, 'Sesi Login', `User ${user.name} berhasil masuk.`);
+    db.logActivity(user.id, user.username || user.email, 'Sesi Login', `User ${user.name} berhasil masuk.`);
 
     res.status(200).json({
       success: true,
@@ -61,6 +62,7 @@ export const AuthController = {
         user: {
           id: user.id,
           uid: user.uid,
+          username: user.username || user.email,
           email: user.email,
           name: user.name,
           role: user.role,
@@ -216,17 +218,21 @@ export const AuthController = {
       return;
     }
 
-    const { email, name, role, ranting_id, banom_id } = req.body;
+    const { username, user, email, password, name, role, ranting_id, banom_id } = req.body;
+    const inputUsername = (username || user || email || '').trim().toLowerCase();
 
-    if (!email || !name || !role) {
-      res.status(400).json({ success: false, message: 'Email, Nama, dan Role wajib diisi.' });
+    if (!inputUsername || !name || !role) {
+      res.status(400).json({ success: false, message: 'Username, Nama, dan Role/Kredensial wajib diisi.' });
       return;
     }
 
     const dbState = db.getState();
-    const existing = dbState.users.find(u => u.email.toLowerCase() === email.toLowerCase());
+    const existing = dbState.users.find(u => 
+      (u.username && u.username.toLowerCase() === inputUsername) ||
+      (u.email && u.email.toLowerCase() === inputUsername)
+    );
     if (existing) {
-      res.status(400).json({ success: false, message: 'Email sudah terdaftar.' });
+      res.status(400).json({ success: false, message: 'Username sudah digunakan.' });
       return;
     }
 
@@ -236,7 +242,9 @@ export const AuthController = {
         const u: User = {
           id: nextId,
           uid: `usr_${Math.random().toString(36).substring(2, 11)}`,
-          email: email.toLowerCase(),
+          username: inputUsername,
+          email: inputUsername,
+          password: password || 'mwcnukarpaw',
           name,
           role,
           ranting_id: role === 'Admin Ranting' ? (ranting_id ? Number(ranting_id) : null) : null,
@@ -246,7 +254,7 @@ export const AuthController = {
         };
         state.users.push(u);
         
-        db.logActivity(adminUser.id, adminUser.email, 'Tambah User', `Super Admin mendaftarkan user baru: ${name} (${email}) dengan role ${role}.`);
+        db.logActivity(adminUser.id, adminUser.username || adminUser.email, 'Tambah User', `Super Admin mendaftarkan user baru: ${name} (${inputUsername}) dengan role ${role}.`);
         return u;
       });
 
@@ -272,10 +280,11 @@ export const AuthController = {
     }
 
     const { id } = req.params;
-    const { email, name, role, ranting_id, banom_id } = req.body;
+    const { username, user, email, password, name, role, ranting_id, banom_id } = req.body;
+    const inputUsername = (username || user || email || '').trim().toLowerCase();
 
-    if (!email || !name || !role) {
-      res.status(400).json({ success: false, message: 'Email, Nama, dan Role wajib diisi.' });
+    if (!inputUsername || !name || !role) {
+      res.status(400).json({ success: false, message: 'Username, Nama, dan Role/Kredensial wajib diisi.' });
       return;
     }
 
@@ -286,9 +295,12 @@ export const AuthController = {
       return;
     }
 
-    const existingEmail = dbState.users.find(u => u.id !== Number(id) && u.email.toLowerCase() === email.toLowerCase());
-    if (existingEmail) {
-      res.status(400).json({ success: false, message: 'Email sudah terdaftar pada user lain.' });
+    const existingUser = dbState.users.find(u => 
+      u.id !== Number(id) && 
+      ((u.username && u.username.toLowerCase() === inputUsername) || (u.email && u.email.toLowerCase() === inputUsername))
+    );
+    if (existingUser) {
+      res.status(400).json({ success: false, message: 'Username sudah digunakan oleh user lain.' });
       return;
     }
 
@@ -297,17 +309,21 @@ export const AuthController = {
         const u = state.users.find(usr => usr.id === Number(id));
         if (!u) throw new Error('User not found');
         
-        const oldEmail = u.email;
+        const oldUsername = u.username || u.email;
         const oldRole = u.role;
         
-        u.email = email.toLowerCase();
+        u.username = inputUsername;
+        u.email = inputUsername;
         u.name = name;
         u.role = role;
+        if (password && password.trim().length > 0) {
+          u.password = password.trim();
+        }
         u.ranting_id = role === 'Admin Ranting' ? (ranting_id ? Number(ranting_id) : null) : null;
         u.banom_id = role === 'Admin Banom' ? (banom_id ? Number(banom_id) : null) : null;
         u.updated_at = new Date().toISOString();
         
-        db.logActivity(adminUser.id, adminUser.email, 'Ubah User', `Super Admin mengubah user ${name} (${oldEmail} -> ${email}, ${oldRole} -> ${role}).`);
+        db.logActivity(adminUser.id, adminUser.username || adminUser.email, 'Ubah User', `Super Admin mengubah user ${name} (${oldUsername} -> ${inputUsername}, ${oldRole} -> ${role}).`);
         return u;
       });
 

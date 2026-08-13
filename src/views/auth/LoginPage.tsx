@@ -3,21 +3,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { Landmark, ArrowLeft, KeyRound, Mail, AlertCircle, Sparkles, UserCheck } from 'lucide-react';
-
-interface DemoProfile {
-  name: string;
-  email: string;
-  role: string;
-  context: string;
-}
+import { Landmark, ArrowLeft, KeyRound, User, AlertCircle, UserCheck, Eye, EyeOff } from 'lucide-react';
 
 export default function LoginPage({ onBackToLanding, onLoginSuccess }: { onBackToLanding: () => void; onLoginSuccess: () => void }) {
   const { login } = useAuth();
-  const [email, setEmail] = useState('admin');
-  const [password, setPassword] = useState('mwcnukarpaw');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -89,7 +83,7 @@ export default function LoginPage({ onBackToLanding, onLoginSuccess }: { onBackT
           
           <div className="mb-8">
             <h3 className="font-display font-bold text-2xl text-emerald-950">Masuk Aplikasi</h3>
-            <p className="text-slate-500 text-sm mt-1">Gunakan email pengurus Anda yang sudah terdaftar.</p>
+            <p className="text-slate-500 text-sm mt-1">Masukkan username atau email pengurus Anda.</p>
           </div>
 
           {error && (
@@ -109,26 +103,15 @@ export default function LoginPage({ onBackToLanding, onLoginSuccess }: { onBackT
             </div>
           )}
 
-          <div className="mb-6 bg-emerald-50/80 border border-emerald-200/60 rounded-2xl p-4 text-emerald-950 flex items-start gap-3">
-            <UserCheck className="w-5 h-5 text-brand-emerald shrink-0 mt-0.5" />
-            <div className="text-xs">
-              <p className="font-bold text-brand-emerald-dark">Kredensial Default Sistem</p>
-              <div className="mt-1 font-mono text-[11px] text-slate-700 bg-white/80 p-2 rounded-lg border border-emerald-100 flex flex-wrap gap-x-4 gap-y-1">
-                <span>User: <strong className="text-emerald-900 font-bold">admin</strong></span>
-                <span>Password: <strong className="text-emerald-900 font-bold">mwcnukarpaw</strong></span>
-              </div>
-            </div>
-          </div>
-
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Username / Email Pengurus</label>
+              <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Username Pengurus</label>
               <div className="relative">
-                <Mail className="w-4 h-4 text-slate-400 absolute left-4 top-3.5" />
+                <User className="w-4 h-4 text-slate-400 absolute left-4 top-3.5" />
                 <input
                   type="text"
                   required
-                  placeholder="admin"
+                  placeholder="Masukkan username"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full bg-white border border-slate-200 focus:border-brand-emerald focus:ring-2 focus:ring-emerald-500/10 rounded-xl py-3 pl-11 pr-4 text-sm font-medium outline-none transition-all"
@@ -141,13 +124,21 @@ export default function LoginPage({ onBackToLanding, onLoginSuccess }: { onBackT
               <div className="relative">
                 <KeyRound className="w-4 h-4 text-slate-400 absolute left-4 top-3.5" />
                 <input
-                  type="password"
+                  type={showPassword ? 'text' : 'password'}
                   required
-                  placeholder="mwcnukarpaw"
+                  placeholder="Masukkan kata sandi"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full bg-white border border-slate-200 focus:border-brand-emerald focus:ring-2 focus:ring-emerald-500/10 rounded-xl py-3 pl-11 pr-4 text-sm font-medium outline-none transition-all font-mono"
+                  className="w-full bg-white border border-slate-200 focus:border-brand-emerald focus:ring-2 focus:ring-emerald-500/10 rounded-xl py-3 pl-11 pr-11 text-sm font-medium outline-none transition-all font-mono"
                 />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-3.5 top-3.5 text-slate-400 hover:text-slate-600 p-0.5 rounded transition-colors cursor-pointer"
+                  title={showPassword ? 'Sembunyikan password' : 'Tampilkan password'}
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
               </div>
             </div>
 

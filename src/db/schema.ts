@@ -49,7 +49,8 @@ export interface Banom {
 export interface User {
   id: number;
   uid: string; // Firebase / Custom Auth UID - Unique
-  email: string; // Unique
+  email: string; // Legacy or email string
+  username?: string; // Username for system login
   name: string;
   role: 'Super Admin' | 'Ketua MWC' | 'Sekretaris' | 'Bendahara' | 'Operator' | 'Admin Ranting' | 'Admin Banom' | 'Viewer';
   ranting_id: number | null; // Nullable, restricts Admin Ranting
